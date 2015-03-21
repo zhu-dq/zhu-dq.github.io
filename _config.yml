@@ -42,8 +42,8 @@ timezone:      null
 title: 朱旦奇
 description: zhudanqi888@gmail.com
 keywords: 朱旦奇 博客
-#url: http://zhu-dq.github.io
-url: http://localhost:4000
+url: http://zhu-dq.github.io
+#url: http://localhost:4000
 feed: /atom.xml
 favicon: /images/me.jpg
 
@@ -113,9 +113,9 @@ customLinks:
 
 #comment config
 disqus:
-  config: true
+  config: false
   id: zhudanqi
 
 duoshuo:
-  config: false
-  id: zhanxin
+  config: true
+  id: zhudanqi
