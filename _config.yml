@@ -41,8 +41,8 @@ timezone:      null
 #Site config
 title: 朱旦奇
 description: zhudanqi888@gmail.com
-keywords: Jekyll Theme
-url: http://pizn.github.io/kunka
+keywords: 朱旦奇 博客
+url: http://zhu-dq.github.io
 feed: /atom.xml
 favicon: http://jekyllrb.com/favicon.png
 
@@ -61,8 +61,8 @@ nav:
 
 #Author config
 author:
-    name: 掌心
-    email: zhanxin.info@gmail.com
+    name: 朱旦奇
+    email: zhudanqi888@gmail.com
     imageLink: http://tp2.sinaimg.cn/1832671293/180/40020872447/1
     simpleIntro: 我是「展新展新」，一个矛盾体的化身，在你的掌心里。
     detailIntro:
@@ -105,7 +105,7 @@ customLinks:
 #comment config
 disqus:
   config: true
-  id: piznblog
+  id: zhudanqi
 
 duoshuo:
   config: false
