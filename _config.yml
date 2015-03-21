@@ -21,7 +21,7 @@ future:       true
 unpublished:  false
 
 # Conversion
-markdown:     kramdown
+markdown:     redcarpet
 highlighter:  pygments
 lsi:          false
 excerpt_separator: "\n\n"
@@ -42,7 +42,8 @@ timezone:      null
 title: 朱旦奇
 description: zhudanqi888@gmail.com
 keywords: 朱旦奇 博客
-url: http://zhu-dq.github.io
+#url: http://zhu-dq.github.io
+url: http://localhost:4000
 feed: /atom.xml
 favicon: /images/me.jpg
 
