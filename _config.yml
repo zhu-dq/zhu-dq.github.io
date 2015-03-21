@@ -1,40 +1,87 @@
-permalink: /:year/:month/:day/:title.html
-paginate: 10
-markdown: redcarpet
+# Where things are
+source:       .
+destination:  ./_site
+plugins:      ./_plugins
+layouts:      ./_layouts
+paginate:     8
 
-# 作者信息
-author: 
-  name: Danqi Zhu
-  email: zhudanqi888@gmail.com
-  link: http://zhu-dq.github.io
-  weibo: http://weibo.com/2401226655
-  github: http://github.com/zhu-dq
+# Handling Reading
+safe:         false
+include:      [".htaccess"]
+exclude:      []
+keep_files:   [".git", ".svn"]
+encoding:     "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+textile_ext:  "textile"
 
-# 站点信息
-title: 朱旦奇的博客
-description: My personal blog
-url: http://zhu-dq.github.io
-rss_url: /pages/atom.xml
+# Filtering Content
+show_drafts:  null
+limit_posts:  0
+future:       true
+unpublished:  false
 
-# gavatar头像及Favicon
-gavatar: /public/img/deer3.png
-favicon: /public/img/deer3.png
+# Conversion
+markdown:     kramdown
+highlighter:  pygments
+lsi:          false
+excerpt_separator: "\n\n"
 
-# disqus 设置
+# Serving
+detach:       false
+port:         4000
+host:         127.0.0.1
+baseurl:      "" # does not include hostname
+
+# Outputting
+permalink:     date
+paginate_path: /page:num
+timezone:      null
+
+
+#站点基础配置
+title: 风筝疯了
+subTitle: 这是朱旦奇的个人博客。
+url: http://pizn.github.io
+feed: /atom.xml
+
+#菜单配置
+nav:
+  - text: 首页
+    url: /index.html
+  - text: 文章归档
+    url: /archives.html
+  - text: 联系我
+    url: http://www.zhanxin.info/contact.html
+
+#theme config
+themes: /themes/violet
+
+#配置你喜欢的顶部背景图片
+headimg:
+  - item: /themes/violet/images/hdbg01.jpg
+  - item: /themes/violet/images/hdbg02.jpg
+  - item: /themes/violet/images/hdbg03.jpg
+  - item: /themes/violet/images/hdbg04.jpg
+
+#关注我
+follow:
+  - class: fa-github
+    url: http://github.com/zhu-dq
+  - class: fa-weibo
+    url: http://weibo.com/2401226655
+  - class: fa-rss
+    url: http://pizn.github.io
+
+#作者信息
+author:
+  link: http://www.zhanxin.info/contact.html
+  img: http://tp2.sinaimg.cn/1832671293/180/40020872447/1
+
+#评论信息
 disqus:
-  shortname: zhudanqi
+  config: true
+  id: zhudanqi
 
-# 主题设置，自动激活某个标签
-active: 读书
-
-# 首页除了最新文章外显示分类
-cates: 
-  - Optimization
-  - LaTeX
-
-# 中文本地化
-locals:
-  tags: 标签
-  about: 关于
-  newest: 最新文章
-  archive: 归档
+duoshuo:
+  config: false
+  id: zhudanqi
