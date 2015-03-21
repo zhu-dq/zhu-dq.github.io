@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Hello world
+category: test
 description: 这是 pizn 在 GitHub 上面的第一篇文章，您好，世界。
 keywords: PIZn,GitHub
 ---

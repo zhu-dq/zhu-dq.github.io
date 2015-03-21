@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 在 github 上建立 pages 的过程
+category: Algorithm
 description: 这篇文章介绍的是使用 github 搭建自己的 pages。
 keywords: GitHub, pages
 ---

@@ -39,8 +39,8 @@ timezone:      null
 
 
 #站点基础配置
-title: 风筝疯了
-subTitle: 这是朱旦奇的个人博客。
+title: 朱旦奇
+subTitle: zhudanqi888@gmail.com
 url: http://zhu-dq.github.io
 feed: /atom.xml
 
@@ -50,8 +50,10 @@ nav:
     url: /index.html
   - text: 文章归档
     url: /archives.html
-  - text: 联系我
-    url: http://zhu-dq.github.io/contact.html
+  - text: 标签分类
+    url: /categories.html
+  - text: 关于我
+    url: /contact.html
 
 #theme config
 themes: /themes/violet
@@ -69,13 +71,15 @@ follow:
     url: http://github.com/zhu-dq
   - class: fa-weibo
     url: http://weibo.com/2401226655
-  - class: fa-rss
-    url: http://zhu-dq.github.io
 
 #作者信息
 author:
-  link: http://www.zhu-dq.info/contact.html
-  img: me.jpg
+  name: Danqi Zhu
+  email: zhudanqi888@gmail.com
+  link: http://zhu-dq.github.io
+  weibo: http://weibo.com/2401226655
+  github: http://github.com/zhu-dq
+  img: /images/me.jpg
 
 #评论信息
 disqus:
