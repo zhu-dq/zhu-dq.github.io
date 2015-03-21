@@ -41,7 +41,7 @@ timezone:      null
 #站点基础配置
 title: 风筝疯了
 subTitle: 这是朱旦奇的个人博客。
-url: http://pizn.github.io
+url: http://zhu-dq.github.io
 feed: /atom.xml
 
 #菜单配置
