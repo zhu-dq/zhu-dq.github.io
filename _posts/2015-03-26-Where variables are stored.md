@@ -2,7 +2,7 @@
 layout: post
 title:  C++变量存在了哪
 date:   2015-03-26 20:47:23
-category: "底层"
+category: "C++"
 ---
 
 ### 堆
