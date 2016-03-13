@@ -90,10 +90,8 @@ follow:
 #Links
 customLinks:
   - item:
-    - text: 掌心
-      url: http://www.zhanxin.info
-    - text: 朱旦奇
-      url: http://zhudanqi.github.io
+    - text: cilab-undefine小组
+      url: http://cilab-undefine.github.io/
     message: Friends
   - item:
     - text: Font Awesome
