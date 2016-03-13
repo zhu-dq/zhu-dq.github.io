@@ -109,9 +109,9 @@ customLinks:
 
 #comment config
 disqus:
-  config: false
+  config: true
   id: zhudanqi
 
 duoshuo:
-  config: true
+  config: false
   id: zhudanqi
